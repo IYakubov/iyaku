@@ -55,7 +55,6 @@ nav ul li a{
  
 .model{
 	width: 28%;
-	height: 80%;
 	position:absolute;
 	bottom:40px;
 	left:72%;
@@ -371,13 +370,13 @@ footer{
 	font-size:20px;
 	color:#2B2B2B;
 }
-@media(max-width:600px){
+@media(max-width:750px){
 	*{
 		box-sizing: border-box;
 	}
 	.model{
 		height: 460px;
-		left: 90%;
+	
 		transform: translateX(-90%);
 	}
 	.text-container{
@@ -433,7 +432,7 @@ footer{
 		width: 160px;
 	}
 }
-@media(max-width:1150px){
+@media(max-width:750px){
 	section{
 		background-image:none;
 		background-color:#f7f7f7;
