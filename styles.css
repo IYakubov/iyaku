@@ -59,8 +59,7 @@ nav ul li a{
 	position:absolute;
 	bottom:40px;
 	left:72%;
-	transform: translateX(10%);
-	transform: translateY(9%);
+	
 }
 .text-container p:nth-child(1){
 	font-family: calibri;
@@ -372,7 +371,7 @@ footer{
 	font-size:20px;
 	color:#2B2B2B;
 }
-@media(max-width:1000px){
+@media(max-width:1150px){
 	*{
 		box-sizing: border-box;
 	}
@@ -434,7 +433,7 @@ footer{
 		width: 160px;
 	}
 }
-@media(max-width:750px){
+@media(max-width:1150px){
 	section{
 		background-image:none;
 		background-color:#f7f7f7;
