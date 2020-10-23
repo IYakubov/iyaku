@@ -193,7 +193,7 @@ font-size: ;}
 	justify-content:space-between;
 }
 .box-1,.box-2,.box-3{
-	width: 300px;
+	width: 400px;
 	height:320px;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -447,7 +447,7 @@ footer{
 		
 	}
 	.text-container{
-		top: 50%;
+	
 		left: 50%;
 		transform: translate(-50%,-50%);
 		width: 80%;
