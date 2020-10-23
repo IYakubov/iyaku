@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> IYakubov's Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="icon" href="loll.ico" type="image/icon type">
+	<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<section>
+		<nav>
+	<!--logo-->
+	<a href="#" class="logo">Портфолио Ильхама Якубова</a>
+	<!--menu-->
+	<ul>
+	<li><a href="#" class="active">Вверх</a></li>
+	<li><a href="#abt">Обо мне</a></li>
+	<li><a href="#con">Контакты</a></li>
+	</ul>
+	<!--bars--------------->
+	<div class="toggle"></div>
+	
+	</nav>
+	<div class="text-container">
+			<p>Привет</p>
+		    <p>Я Ильхам Якубов</p>
+			<p>Графический Дизайнер<br>& Веб-разработчик на базовом уровне</p>
+			<a href="resume.pdf" download target="blank_"><button class="down-cv">Скачать Резюме</button></a>
+		</div>
+	<!--model---------------------->
+	<img alt="model" class="model" src="ilxaam.png"> 
+	</section>
+	<div class="about-container">
+	<!--img-->
+		<a name="abt" />
+		<img src="ilxaam.png"/>
+	<!--about-me-text-->
+		<div class="about-text">
+		<p>Обо мне</p>
+		<p>Веб Разработчик и Графический Дизайнер</p>
+		<p>Привет, Меня зовут Ильхам. Мне 20 лет. Я студент 3 курса Университета INHA в городе Ташкент. Я веб-разработчик и графический дизайнер на базовом уровне. Я умею создавать простые сайты с современным дизайном. Работаю с Photoshop. Вы можете просмотреть мои работы</p>
+	    
+		<a href="designs.html" target="blank_"><button class="down-cv">Дизайны</button></a>
+		<a href="https://ediprez.com" target="blank_"><button class="down-cv">ediprez.com</button></a>
+		<a href="resume.pdf" download target="blank_"><button class="down-cv">Скачать Резюме</button></a>
+		</div>
+	</div>
+		<div class="services ">
+		<!--text-->
+		<div class="services-text ">
+	<p>Сервисы</p>
+<p></p>
+	<p>Если вам нужен веб-сайт для вашего бизнеса, например кафе, магазин, интернет-магазин или что-то в этом роде, свяжитесь со мной</p>
+			</div>
+		<div class="box-container">
+		<!--1------------->
+			<div class="box-1">
+			<span>1</span>
+			<p class="heading">Веб-Сайт</p>
+			<p class="details">Могу создать сайт с современным дизайном. Так же могу создать приложение для сайта вашего бизнеса</p>
+			</div>
+	   <!--2------------->
+			<div class="box-2">
+			<span>2</span>
+			<p class="heading">Графический Дизайн</p>
+			<p class="details">В основном работаю с фотошопом. Могу создавать дизайн визиток, меню кафе, обложек, календарей, рекламных баннеров и т.д</p>
+			</div>
+		<!--3------------->
+			<div class="box-3">
+			<span>3</span>
+			<p class="heading">Ремонт Компьютеров</p>
+			<p class="details">Если мы находимся в одном городе, я могу починить ваш компьютер, если он не работает. Я могу помочь вам с проблемами аппаратного и программного обеспечения.</p>
+			</div>
+		</div>
+	</div>
+  <div class="contact-me">
+		<p>Если У Вас Есть Какой-То Проект В Вашем Уме?</p>
+		<a href="https://t.me/iyakubov" target="blank_"><button>Напишите мне в Telegram</button></a>
+	</div>
+
+	 <footer>
+	 <!--heading-->
+	 <p></p>
+	 <!--paragraph-->
+	 <p></p>
+	 <!--social-->
+	<div class="social-icons">
+	<a href="https://www.facebook.com/abraham.horiz/" target="blank_"><i class="fab fa-facebook-f"></i></a>
+	<a href="https://www.instagram.com/iyakubov17/" target="blank_"><i class="fab fa-instagram"></i></a>
+	<a href="https://t.me/iyakubov"><i class="fab fa-telegram"></i></a>
+	</div>
+	 <!--copyright-->
+	
+</footer>
+	<!--social-attach-bar-->
+	<div class="social">
+	<a href="https://www.facebook.com/abraham.horiz/" target="blank_"><i class="fab fa-facebook-f"></i></a>
+	<a href="https://www.instagram.com/iyakubov17/" target="blank_"><i class="fab fa-instagram"></i></a>
+	<a href="https://t.me/iyakubov"><i class="fab fa-telegram"></i></a>
+	</div>
+  
+<a name="con" />
+</body>
+<script type="text/javascript" src="js/JQuery.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$('.toggle').click(function(){
+			$('.toggle').toggleClass('active')
+			$('nav').toggleClass('active')
+		})
+	})
+	</script>
+</html>
