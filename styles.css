@@ -370,7 +370,7 @@ footer{
 	font-size:20px;
 	color:#2B2B2B;
 }
-@media(max-width:750px){
+@media(max-width:1250px){
 	*{
 		box-sizing: border-box;
 	}
@@ -432,11 +432,8 @@ footer{
 		width: 160px;
 	}
 }
-@media(max-width:750px){
-	section{
-		background-image:none;
-		background-color:#f7f7f7;
-	}
+@media(max-width:1250px){
+	
 	.model{
 		display: none;
 	}
